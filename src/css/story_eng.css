@@ -1,0 +1,435 @@
+div.main{
+    width: 100%; height: 500px;
+    background-image: url(../img/story_main.jpg);
+    background-size: 100%;
+    line-height: 500px;
+    text-align: center;
+}
+div.main div.main_txt{
+    font-size: 48px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+div.story_txtbox{
+    width: 100%; height: 300px;
+    line-height: 300px;
+    text-align: center;
+}
+div.story_txtbox div.story_txt{
+    font-size: 36px;
+    font-weight: bold;
+}
+div.conbox1{
+    width: 100%; height: 1000px;
+    position: relative;
+}
+div.conbox1 div.lii{
+    background-image: url(../img/story_lii.png);
+    width: 50%; height: 60%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0; bottom: -3%;
+}
+div.conbox1 div.lii_hand{
+    width: 7%; height: 10%;
+    background-image: url(../img/story_lii_HAND2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 20%; right: 22%;
+    animation: hand 3s infinite;
+}
+@keyframes hand{
+    0%{}
+    25%{transform: rotate(8deg);}
+    50%{transform: rotate(12deg);}
+    75%{transform: rotate(8deg);}
+    100%{}
+}
+div.conbox1 div.lii_bee1{
+    width: 0.5%; height: 1%;
+    background-image: url(../img/story_lii_bee1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 23%; right: 22%;
+    animation: bee1 2.5s infinite;
+}
+@keyframes bee1{
+    0%{bottom: 23%; right: 22%;}
+    25%{bottom: 24%; right: 22.5%;}
+    50%{bottom: 26%; right: 22%;}
+    75%{bottom: 28%; right: 22.5%; opacity: 50%;}
+    100%{bottom: 30%; right: 22%; opacity: 0%;}
+}
+div.conbox1 div.lii_bee2{
+    width: 0.5%; height: 1%;
+    background-image: url(../img/story_lii_bee2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 23%; right: 20%;
+    animation: bee2 2.5s infinite;
+}
+@keyframes bee2{
+    0%{bottom: 23%; right: 20%;}
+    25%{bottom: 25%; right: 19.8%;}
+    50%{bottom: 27%; right: 20%;}
+    75%{bottom: 30%; right: 19.5%; opacity: 50%;}
+    100%{bottom: 33%; right: 20%; opacity: 0%;}
+}
+div.conbox1 div.lii_bee3{
+    width: 0.5%; height: 1%;
+    background-image: url(../img/story_lii_bee3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 25%; right: 21%;
+    animation: bee3 2.5s infinite;
+}
+@keyframes bee3{
+    0%{bottom: 25%; right: 21%;}
+    25%{bottom: 27%; right: 20.7%;}
+    50%{bottom: 29%; right: 21%;}
+    75%{bottom: 33%; right: 20%; opacity: 50%;}
+    100%{bottom: 35%; right: 21%; opacity: 0%;}
+}
+div.conbox1 div.lii_bee4{
+    width: 0.5%; height: 1%;
+    background-image: url(../img/story_lii_bee4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 20%; right: 20%;
+    animation: bee4 2.5s infinite;
+}
+@keyframes bee4{
+    0%{bottom: 20%; right: 20%;}
+    25%{bottom: 23%; right: 20.5%;}
+    50%{bottom: 25%; right: 20%;}
+    75%{bottom: 29%; right: 21%; opacity: 50%;}
+    100%{bottom: 32%; right: 20.5%; opacity: 0%;}
+}
+
+
+/*꿀-----------------------------------*/
+
+
+div.conbox1 div.honey{
+    width: 20%; height: 55%;
+    position: absolute;
+    left: 0; bottom: -25%;
+}
+div.honey div.hon{
+    width: 60%; height: 30%;
+    background-image: url(../img/honey-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0; top: 0;
+}
+div.honey div.hon_rage{
+    width: 40%; height: 40%;
+    background-image: url(../img/honey_rage-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; left: 21%;
+    animation: rage 7s infinite;
+}
+@keyframes rage{
+    0%{opacity: 100%;}
+    25%{opacity: 00%;}
+    50%{opacity: 00%;}
+    75%{opacity: 00%;}
+    100%{opacity: 00%;}
+}
+div.honey div.hon_rage2{
+    width: 45%; height: 40%;
+    background-image: url(../img/honey_rage2-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; left: 18%;
+    animation: rage2 7s infinite;
+}
+@keyframes rage2{
+    0%{opacity: 00%;}
+    25%{opacity: 100%;}
+    50%{opacity: 00%;}
+    75%{opacity: 00%;}
+    100%{opacity: 00%;}
+}
+div.honey div.hon_rage3{
+    width: 40%; height: 40%;
+    background-image: url(../img/honey_rage3-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0; left: 21%;
+    animation: rage3 7s infinite;
+}
+@keyframes rage3{
+    0%{opacity: 00%;}
+    25%{opacity: 00%;}
+    50%{opacity: 100%;}
+    75%{opacity: 100%;}
+    100%{opacity: 100%;}
+}
+div.honey div.hon_un1{
+    width: 10%; height: 15%;
+    background-image: url(../img/honey_un1-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%; left: 22%;
+    z-index: 9;
+    animation: un1 7s infinite;
+}
+@keyframes un1{
+    0%{opacity: 00%;}
+    25%{opacity: 00%;}
+    50%{opacity: 100%; top: 35%;}
+    75%{opacity: 100%; top: 65%;}
+    80%{opacity: 00%; top: 75%;}
+    100%{opacity: 00%;}
+}
+div.honey div.hon_un2{
+    width: 10%; height: 15%;
+    background-image: url(../img/honeyun2-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 35%; left: 38%;
+    z-index: 9;
+    animation: un2 7s infinite;
+}
+@keyframes un2{
+    0%{opacity: 00%;}
+    25%{opacity: 00%;}
+    50%{opacity: 100%; top: 45%;}
+    75%{opacity: 100%; top: 73%;}
+    80%{opacity: 00%; top: 80%;}
+    100%{opacity: 00%;}
+}
+div.honey div.hon_un3{
+    width: 10%; height: 15%;
+    background-image: url(../img/honey_un3-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30%; left: 48%;
+    z-index: 9;
+    animation: un3 7s infinite;
+}
+@keyframes un3{
+    0%{opacity: 00%;}
+    25%{opacity: 00%;}
+    50%{opacity: 100%; top: 40%;}
+    75%{opacity: 100%; top: 67%;}
+    80%{opacity: 00%; top: 75%;}
+    100%{opacity: 00%;}
+}
+div.honey div.hon_der{
+    width: 100%; height: 23%;
+    background-image: url(../img/honey_der1-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    animation: der 7s infinite;
+}
+@keyframes der{
+    0%{opacity: 100%;}
+    25%{opacity: 100%;}
+    50%{opacity: 100%;}
+    70%{opacity: 100%;}
+    80%{opacity: 00%;}
+    100%{opacity: 00%;}
+}
+div.honey div.hon_der2{
+    width: 100%; height: 24%;
+    background-image: url(../img/honey_der2-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    animation: der2 7s infinite;
+}
+@keyframes der2{
+    0%{opacity: 00%;}
+    25%{opacity: 00%;}
+    50%{opacity: 00%;}
+    70%{opacity: 00%;}
+    80%{opacity: 100%;}
+    100%{opacity: 00%;}
+}
+div.honey div.hon_der3{
+    width: 100%; height: 22.8%;
+    background-image: url(../img/honey_der3-01.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    animation: der3 7s infinite;
+}
+@keyframes der3{
+    0%{opacity: 00%;}
+    25%{opacity: 00%;}
+    50%{opacity: 00%;}
+    70%{opacity: 00%;}
+    80%{opacity: 00%;}
+    100%{opacity: 100%;}
+}
+
+
+/*꿀-----------------------------------*/
+
+
+div.in_con{
+    width: 85%; height: 100%;
+    margin: 0 auto;
+}
+div.conbox1 div.in_con div.img_box{
+    width: 40%; height: 60%;
+    background-image: url(../img/story_img1.jpg);
+    overflow: hidden;
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+div.conbox1 div.in_con div.txt_box{
+    width: 45%; height: 50%;
+    background-color: #fff;
+    position: absolute;
+    padding: 3%;
+    box-sizing: border-box;
+    top: 35%; right: 25%;
+    letter-spacing: 1px;
+}
+div.conbox1 div.in_con div.txt_box span{
+    font-size: 30px;
+    font-weight: bold;
+}
+div.conbox2 div.in_con div.txt_box2 span{
+    font-size: 30px;
+    font-weight: bold;
+}
+div.conbox2 div.in_con div.txt_box3 span{
+    font-size: 30px;
+    font-weight: bold;
+}
+div.conbox2{
+    width: 100%; height: 2000px;
+    position: relative;
+    margin-top: 3%;
+}
+div.conbox2 div.img_box2{
+    width: 30%; height: 40%;
+    background-image: url(../img/story_img2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+div.conbox2 div.txt_box2{
+    width: 50%; height: 20%;
+    background-color: #fff;
+    float: left;
+    padding: 3%;
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-top: 12%;
+    letter-spacing: 1px;
+}
+div.conbox2 div.img_box3{
+    width: 40%; height: 35%;
+    background-image: url(../img/story_img3.jpg);
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40%;
+}
+div.conbox2 div.txt_box3{
+    width: 40%; height: 30%;
+    background-color: #fff;
+    position: absolute;
+    padding: 3%;
+    box-sizing: border-box;
+    top: 60%; right: 25%;
+    letter-spacing: 1px;
+}
+div.conbox2 div.lii_mint{
+    width: 35%; height: 15%;
+    background-image: url(../img/mint.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0; right: 12%;
+}
+div.conbox2 div.lii_foo{
+    width: 20%; height: 10%;
+    background-image: url(../img/foosh.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 37%; bottom: 6%;
+    animation: foo 4s infinite;
+}
+@keyframes foo{
+    0%{opacity: 0;}
+    25%{opacity: 50%;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+div.conbox2 div.lii_foo1{
+    width: 20%; height: 10%;
+    background-image: url(../img/foosh1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 17%; bottom: 6%;
+    animation: foo1 4s infinite;
+}
+@keyframes foo1{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 0;}
+    75%{opacity: 50%;}
+    100%{opacity: 0;}
+}
+div.conbox2 div.lii_foo2{
+    width: 20%; height: 10%;
+    background-image: url(../img/foosh.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 21%; bottom: 6.8%;
+    animation: foo2 4s infinite;
+}
+@keyframes foo2{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 50%;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+div.conbox2 div.lii_foo3{
+    width: 20%; height: 10%;
+    background-image: url(../img/foosh1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0%; bottom: 6.8%;
+    animation: foo3 4s infinite;
+}
+@keyframes foo3{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 50%;}
+}

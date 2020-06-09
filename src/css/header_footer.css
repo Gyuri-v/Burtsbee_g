@@ -1,0 +1,372 @@
+@font-face{
+    font-family:"AritaSans-Thin";
+    src:url(../fonts/AritaSans-Thin.otf);
+}
+@font-face { font-family: 'S-CoreDream-3Light'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+*{
+    font-family: "AritaSans-Thin", 'S-CoreDream-3Light';
+    letter-spacing: 5px;
+    word-break: keep-all;
+}
+a, p, span{
+    font-family: "AritaSans-Thin", 'S-CoreDream-3Light';
+    letter-spacing: 5px;
+    word-break: keep-all;
+}
+
+
+/*navigation*/
+div.navigation{
+    width: 100%; height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9999999;
+    left: 100%;
+}
+
+
+/*nav_left*/
+div.navigation div.nav_left{
+    width: 60%; height: 100vh;
+    float: left;
+}
+div.navigation div.nav_left div.nav_ad{
+    width: 100%; height: 100vh;
+    position: relative;
+}
+div.navigation div.nav_left div.nav_ad1{
+    background-color: #d76b83;
+}
+div.navigation div.nav_left div.nav_ad2{
+    background-color: #bce09b;
+}
+div.navigation div.nav_left div.nav_ad3{
+    background-color: #e3c684;
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_img{
+    width: 50%; 
+    position: absolute;
+    top: 50%; left: 0;
+    transform: translate(0, -50%);
+    padding: 5%;
+    box-sizing: border-box;
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_img img{
+    width: 100%;                        
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_txt{
+    width: 50%;
+    position: absolute;
+    top: 50%; right: 0;
+    transform: translate(0, -50%);
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_txt h3{
+    font-size: 24px;
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_txt p{
+    padding: 20px 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_txt div.more a{
+    display: inline-block;
+    height: 50px;
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_txt div.more div {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_txt div.more img{
+    height: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_txt div.more:hover{
+    padding-left: 3%;
+    transition-duration: 1s;
+}
+div.navigation div.nav_left div.nav_ad div.nav_ad_txt div.more:hover img{
+    padding-left: 5%;
+    transition-duration: 1s;
+}
+
+/*nav_close*/
+div.navigation div.nav_close{
+    width: 40px; height: 34px;
+    float: right;
+    cursor: pointer;
+    position: relative;
+}
+div.navigation div.nav_close div.close_line1{
+    width: 100%; height: 3px;
+    background-color: black;
+    transform: rotate(45deg);
+    margin-top: 17px;
+}
+div.navigation div.nav_close div.close_line2{
+    width: 100%; height: 3px;
+    background-color: black;
+    transform: rotate(135deg);
+    margin-top: -3px;
+}
+
+div.navigation ul.slick-dots{
+    left: 50%; bottom: 30%;
+}
+
+/*nav_right*/
+/*gnb*/
+div.navigation div.nav_right{
+    width: 40%; height: 100vh;
+    float: right;
+    padding: 30px;
+    padding-right: 7.5%;
+    box-sizing: border-box;
+}
+div.navigation div.nav_right ul.gnb{
+    clear: both;
+    padding-top: 20px;
+}
+div.navigation div.nav_right ul.gnb>li>a{
+    height: 70px;
+    display: inline-block;
+    line-height: 70px;
+    font-size: 36px;
+}
+div.navigation div.nav_right ul.gnb>li>a img{
+    width: 35px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+div.navigation div.nav_right ul.gnb>li:hover img{
+    margin-top: -15px;
+    transition-duration: 1s;
+}
+
+/*lnb*/
+div.navigation div.nav_right ul.gnb>li ul.lnb{
+    margin-left: 60px;
+}
+div.navigation div.nav_right ul.gnb>li ul.lnb li a{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/*header*/
+header{
+    width: 100%; height: 100px;
+    padding: 30px 7.5%;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 999999;
+}
+
+/*ci*/
+header div.ci{
+    float: left;
+}
+header div.ci a{
+    width: 100%; height: 34px;
+    display: inline-block;
+}
+
+/*menu*/
+header div.nav_btn{
+    width: 40px; height: 34px;
+    float: right;
+    cursor: pointer;
+    position: relative;
+}
+header div.nav_btn div.nav_line1{
+    width: 100%; height: 3px;
+    background-color: #d1202f;
+    position: absolute;
+    left: 0; top: 1px;
+}
+header div.nav_btn div.nav_line2{
+    width: 50%; height: 3px;
+    background-color: #d1202f;
+    position: absolute;
+    right: 0; top: 15px;
+    transition-duration: 0.5s;
+}
+header div.nav_btn:hover div.nav_line2{
+    width: 100%;
+}
+header div.nav_btn div.nav_line3{
+    width: 100%; height: 3px;
+    background-color: #d1202f;
+    position: absolute;
+    left: 0; bottom: 0;
+}
+
+
+
+
+/*footer*/
+footer{
+    width: 100%; height: 350px;
+    background-image: url(../img/footer-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10% 7.5% 0;
+    box-sizing: border-box;
+}
+footer div.footer_top{
+    border-bottom: 1px solid #fff;
+}
+footer div.footer_top ul{
+    width: 100%;  height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer div.footer_top ul li{
+    float: left;
+    color: #fff;
+    margin-right: 5%;
+}
+footer div.footer_top ul li a{
+    color: #fff;
+}
+footer div.footer_top div.sub_txt{
+    width: 100%; height: 25px;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+}
+footer div.footer_top div.sub_txt div.left{
+    float: left;
+}
+footer div.footer_top div.sub_txt div.right{
+    width: 100px;
+    float: right;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+footer div.footer_top div.sub_txt div.right a{
+    color: #fff;
+}
+footer div.footer_top div.sub_txt div.right a span{
+    cursor: pointer;
+}
+footer div.footer_top div.sub_txt div.lau{
+    width: 100px; height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    position: absolute;
+    right: 0; bottom: 22px;
+    display: none;
+}
+footer div.footer_top div.sub_txt div.lau a{
+    color: #fff;
+}
+footer div.footer_top div.lau{
+    font-size: 14px;
+    color: #fff;
+}
+footer div.footer_sns{
+    width: 100%;
+    margin-top: 15px;
+}
+footer div.footer_sns ul li{
+    width: 35px; height: 35px;
+    float: right;
+    margin-right: 10px;
+}
+
+/*반응형*/
+/*1200*/
+@media screen and (max-width:1199px){
+    *{
+        letter-spacing: 3px;
+    }
+    a, p, span{
+        letter-spacing: 3px;
+    }
+    div.navigation div.nav_right ul.gnb>li>a {
+        font-size: 24px;
+    }
+    div.navigation div.nav_right ul.gnb>li ul.lnb li a {
+        font-size: 18px;
+    }
+    
+    footer {
+        padding: 15% 7.5% 0;
+    }
+}
+
+/*768*/
+@media screen and (max-width:768px){
+    div.navigation div.nav_left{
+        width: 50%;
+    }
+    div.navigation div.nav_left div.nav_ad div.nav_ad_img {
+        width: 100%; height: 45%;
+        top: 5%; left: 50%;
+        transform: translate(-50%,0)
+    }
+    div.navigation div.nav_left div.nav_ad div.nav_ad_img img{
+        width: auto; height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    div.navigation div.nav_left div.nav_ad div.nav_ad_txt {
+        width: 100%; height: 50%;
+        top: 75%;
+        padding-left: 5%;
+        text-align: center;
+    }
+    div.navigation ul.slick-dots {
+        left: 50%; bottom: 10%;
+        transform: translate(-50%, -50%)
+    }
+    div.navigation div.nav_right{
+        width: 50%;
+    }
+    
+    footer {
+        padding: 20% 7.5% 0;
+    }
+    footer div.footer_top div.sub_txt{
+        height: 70px;
+    }
+    footer div.footer_top div.sub_txt div.right {
+        margin-top: 25px;
+}
+
+/*480*/
+@media screen and (max-width:480px){
+    div.navigation div.nav_left{
+        display: none;
+    }
+    div.navigation div.nav_right{
+        width: 100%;
+    }
+    
+    footer {
+        padding: 20% 5% 0;
+    }
+    footer div.footer_top ul {
+        margin-top: 50px;
+    }
+    footer div.footer_top ul li {
+        margin-right: 3%;
+    }
+    footer div.footer_top ul li a {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    footer div.footer_top div.sub_txt div.left {
+        letter-spacing: 1px;
+    }
+}

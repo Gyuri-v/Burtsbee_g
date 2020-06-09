@@ -1,0 +1,224 @@
+main section.title_name{
+    width: 100%; height:500px;
+    background-image: url(../img/ingredient/background-basil.png);
+    background-size: cover;
+}
+main section.title_name article{
+    width: 100%; height:500px;
+    background-color: rgb(0,0,0,0.3);
+    text-align: center;
+    line-height: 500px;
+    font-size: 48px;
+    color: white;
+}
+/*---------------------------------------*/
+main section.content{
+    width: 100%; height: 100%;
+}
+/*----------------------------------------*/
+main section.content article.subtitle{
+    width: 100%; height: 200px;    
+    display: table;
+}
+main section.content article.subtitle p{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+/*--------------------------------------------------ingredient*/
+/*--------------------------left*/
+main section.content article.con{
+    width: 100%; height: 850px;
+    float: left;
+    padding: 100px 0;
+}
+main section.content article.con div.con_top{
+    width: 100%; height: 300px;
+    padding: 0 7.5%;
+    box-sizing: border-box;
+}
+main section.content article.con div.con_top div.con_img{
+    width: 20%; height: 300px;
+    float: left;
+}
+main section.content article.con div.con_top div.con_img img{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+main section.content article.con div.con_top div.con_con{
+    width: 80%;
+    float: right;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+main section.content article.con div div h2{
+    height: 70px;
+    line-height: 70px;
+    font-size: 28px;
+    font-weight: bold;
+}
+main section.content article.con div div p{
+    height: auto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+main section.content article.con div.con_bottom{
+    width: 85%; height: 500px;
+    margin-top: 50px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+main section.content article.con div.c_b1{
+    background-image: url(../img/ingredient/ingredient_honey.png);
+}
+main section.content article.con div.c_b2{
+    background-image: url(../img/ingredient/ingredient_almond.png);
+}
+main section.content article.con div.c_b3{
+    background-image: url(../img/ingredient/ingedient_crenberry.png);
+}
+main section.content article.con div.c_b4{
+    background-image: url(../img/ingredient/ingredient_aloe.png);
+}
+main section.content article.con div.c_b5{
+    background-image: url(../img/ingredient/ing_Acaci-Berry.jpg);
+    background-position: center;
+}
+main section.content article.con div.c_b6{
+    background-image: url(../img/ingredient/ingredient_lavender.png);
+}
+/*---------------------------right*/
+main section.content article.con_right div.con_bottom{
+    float: right;
+}
+main section.content article.con_right div.con_top div.con_img{
+    float: right;
+}
+main section.content article.con_right div.con_top div.con_img img{
+    float: right;
+}
+main section.content article.con_right div div h2, article.con_right div div p{
+    text-align: right;
+}
+/*--------------------------------------content_bottom*/
+main section.content article.content_bottom{
+    width: 100%; height: 500px;
+    padding: 100px 0;
+    clear: both;
+}
+main section.content article.content_bottom h2{
+    width: 100%; height: 100px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+main section.content article.content_bottom ul{
+    width: 60%;
+    margin: 0 auto;
+}
+main section.content article.content_bottom ul li{
+    width: 25%; height: 70px;
+    float: left;
+    letter-spacing: 0;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+main section.content article.content_bottom ul li.exception{
+    width: 100%;
+}
+/*-------------------------------------------------------------반응형*/
+@media screen and (max-width:1199px){
+    main section.title_name article{
+        font-size: 36px;
+    }
+    main section.content article.subtitle p {
+        font-size: 24px;
+    }
+    main section.content article.con div.con_top{
+        padding: 0 10px;
+    }
+    main section.content article.con div.con_top div.con_img {
+        width: 30%;
+    }
+    main section.content article.con div.con_top div.con_con {
+        width: 70%;
+    }
+    main section.content article.con div.con_bottom {
+        width: 100%;
+    }
+    main section.content article.con div div h2 {
+        font-size: 24px;
+    }
+    main section.content article.con div div p {
+        font-size: 14px;
+    }
+    main section.content article.content_bottom h2 {
+        font-size: 24px;
+    }
+    main section.content article.content_bottom ul li {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:768px){
+    
+    main section.content article.con {
+        padding: 50px 0 0;
+    }
+    main section.content article.con div.con_bottom {
+        height: 300px;
+        background-attachment: inherit;
+    }
+    main section.content article.subtitle p {
+        font-size: 18px;
+    }
+    main section.content article.con div div h2 {
+        font-size: 18px;
+    }
+    main section.content article.con div div p {
+        font-size: 14px;
+    }
+    main section.content article.content_bottom h2 {
+        font-size: 18px;
+    }
+    main section.content article.content_bottom ul {
+        width: 100%;
+    }
+    main section.content article.content_bottom ul li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:480px){
+    main section.content article.con div.con_top {
+        height: 400px;
+    }
+    main section.content article.con div.con_top div.con_img {
+        width: 100%; height: 120px;
+    }
+    main section.content article.con div.con_top div.con_img img{
+        width: 40%;
+    }
+    main section.content article.con div.con_top div.con_con {
+        width: 100%;
+        padding: 0;
+    }
+    main section.content article.content_bottom ul{
+        padding: 0 10px; 
+        box-sizing: border-box;
+    }
+    main section.content article.content_bottom ul li {
+        width: 50%; height: 50px;
+    }
+}

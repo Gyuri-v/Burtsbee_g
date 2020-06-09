@@ -1,0 +1,118 @@
+div.main{
+    width: 100%; height: 500px;
+    background-image: url(../img/pro_main.jpg);
+    background-size: 100%;
+    line-height: 500px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+div.main div.main_txt{
+    font-size: 48px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+div.pro{
+    width: 100%; height: 1500px;
+    margin-bottom: 3%;
+}
+div.pro ul{
+    height: 50px;
+    display: flex;
+    line-height: 50px;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+div.pro ul{
+    background-color: #f0b237;
+}
+div.pro ul li{
+    margin-right: 5%;
+}
+div.pro ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    transition-duration: 0.5s;
+}
+div.pro ul li a:hover{
+    color: #d1202f;
+}
+div.pro div.pro_box{
+    width: 85%; height: 100%;
+    margin: 0 auto;
+}
+div.pro div.pro_box div.pro_box1{
+    width: 100%; height: 40%;
+    display: flex;
+    justify-content: center;
+}
+div.pro div.pro_box div.pro_box1 div{
+    width: 350px; height: 500px;
+    background-color: antiquewhite;
+    float: left;
+    margin-right: 50px;
+}
+div.pro div.pro_box div.pro_box1 div.box1{
+    background-image: url(../img/pro1.png);
+    transition-duration: 1s;
+}
+div.pro div.pro_box div.pro_box1 div.box1:hover{
+    background-image: url(../img/pro1_1.png);
+}
+div.pro div.pro_box div.pro_box1 div.box2{
+    background-image: url(../img/pro2.png);
+    transition-duration: 1s;
+}
+div.pro div.pro_box div.pro_box1 div.box2:hover{
+    background-image: url(../img/pro2_1.png);
+}
+div.pro div.pro_box div.pro_box1 div.box3{
+    background-image: url(../img/pro3.png);
+    transition-duration: 1s;
+}
+div.pro div.pro_box div.pro_box1 div.box3:hover{
+    background-image: url(../img/pro3_1.png);
+}
+div.pro div.pro_box div.pro_box1 div.box4{
+    background-image: url(../img/pro4.png);
+    transition-duration: 1s;
+}
+div.pro div.pro_box div.pro_box1 div.box4:hover{
+    background-image: url(../img/pro4_1.png);
+}
+div.pro div.pro_box div.pro_box1 div.box5{
+    background-image: url(../img/pro5.png);
+    transition-duration: 1s;
+}
+div.pro div.pro_box div.pro_box1 div.box5:hover{
+    background-image: url(../img/pro5_1.png);
+}
+div.pro div.pro_box div.pro_box1 div.box6{
+    background-image: url(../img/pro6.png);
+    transition-duration: 1s;
+}
+div.pro div.pro_box div.pro_box1 div.box6:hover{
+    background-image: url(../img/pro6_1.png);
+}
+div.pro div.pro_box div.pro_box1 div.two{
+    margin-top: 100px;
+}
+div.pro div.pro_more{
+    width: 100%; height: 50px;
+    text-align: center;
+    margin-top: 5%;
+}
+div.pro div.pro_more a{
+    font-size: 24px;
+    transition-duration: 1s;
+}
+div.pro div.pro_more a:hover{
+    margin-left: 1%;
+}
+div.pro div.pro_more a:hover img{
+    margin-left: 1.5%;
+}
+div.pro div.pro_more a img{
+    width: 3.5%; 
+    margin-left: 1%;
+    transition-duration: 1s;
+}
